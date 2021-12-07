@@ -26,6 +26,9 @@ connection
         console.log(error);
     })
 
+const Article = require("./articles/article")
+const Category = require("./cathegories/cathegory")
+
 app.use("/",cathegoriesController)
 app.use("/",articlesController)
 
