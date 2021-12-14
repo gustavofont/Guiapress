@@ -14,8 +14,6 @@ const Article = connection.define('article',{
         allowNull: false
     }
 })
-
 Article.belongsTo(Cathegory)
-
 
 module.exports = Article
